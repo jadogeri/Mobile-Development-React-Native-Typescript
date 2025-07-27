@@ -7,7 +7,7 @@ import { styles } from '../styles/global';
 type ComponentProps = NativeStackScreenProps<RootStackParamList, 'Component'>;
 
 const ComponentScreen : React.FC<ComponentProps> = () => {
-    const myEmotion : string = "Love";
+    const myEmotion : string = "love";
   return (
     <View style={styles.container}>
       <Text>This is component screen</Text>
