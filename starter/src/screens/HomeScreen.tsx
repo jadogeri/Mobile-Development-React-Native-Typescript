@@ -22,6 +22,10 @@ const HomeScreen: React.FC<HomeProps> = ({ navigation }) => {
         title="Imagecreen" 
         onPress={() => navigation.navigate('Image')}
       />
+      <Button
+        title="CounterScreen" 
+        onPress={() => navigation.navigate('Counter')}
+      />
       <Pressable
         onPress={() => navigation.navigate('List')}
       ><Text>List</Text></Pressable>
