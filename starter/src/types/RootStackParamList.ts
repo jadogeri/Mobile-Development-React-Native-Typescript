@@ -4,4 +4,5 @@ export type RootStackParamList = {
   Details: { itemId: number; otherParam: string }; // Parameters for the Details screen
   Component: undefined;
   List:undefined;
+  Image: undefined;
 };
