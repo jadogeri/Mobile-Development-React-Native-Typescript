@@ -1,7 +1,11 @@
 import { Button, StyleSheet, Text, View } from 'react-native'
 import React, {useState} from 'react'
+import { RootStackParamList } from '../types/RootStackParamList';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
-const CounterScreen = () => {
+type CounterProps = NativeStackScreenProps<RootStackParamList, 'Counter'>;
+
+const CounterScreen : React.FC<CounterProps>= () => {
     const [count, setCount] = useState<number>(0);
 
     const handleIncrease = () =>{

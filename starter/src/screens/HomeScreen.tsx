@@ -26,6 +26,10 @@ const HomeScreen: React.FC<HomeProps> = ({ navigation }) => {
         title="CounterScreen" 
         onPress={() => navigation.navigate('Counter')}
       />
+      <Button
+        title="ColorScreen" 
+        onPress={() => navigation.navigate('Color')}
+      />
       <Pressable
         onPress={() => navigation.navigate('List')}
       ><Text>List</Text></Pressable>

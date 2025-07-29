@@ -9,6 +9,7 @@ import ComponentScreen from './src/screens/ComponentScreen';
 import ListScreen from './src/screens/ListScreen';
 import ImageScreen from './src/screens/ImageScreen';
 import CounterScreen from './src/screens/CounterScreen';
+import ColorScreen from './src/screens/ColorScreen';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -22,6 +23,7 @@ export default function App() {
         <Stack.Screen name="List" component={ListScreen} options={{ title: 'List' }} />
         <Stack.Screen name="Image" component={ImageScreen} options={{ title: 'Image' }} />
         <Stack.Screen name="Counter" component={CounterScreen} options={{ title: 'Counter' }} />
+        <Stack.Screen name="Color" component={ColorScreen} options={{ title: 'Counter' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
