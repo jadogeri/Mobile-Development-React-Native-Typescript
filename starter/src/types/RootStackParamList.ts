@@ -7,4 +7,5 @@ export type RootStackParamList = {
   Image: undefined;
   Counter: undefined;
   Color: undefined;
+  Text: undefined;
 };

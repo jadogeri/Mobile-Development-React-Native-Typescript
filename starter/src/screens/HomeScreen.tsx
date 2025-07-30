@@ -30,6 +30,10 @@ const HomeScreen: React.FC<HomeProps> = ({ navigation }) => {
         title="ColorScreen" 
         onPress={() => navigation.navigate('Color')}
       />
+      <Button
+        title="TextScreen" 
+        onPress={() => navigation.navigate('Text')}
+      />
       <Pressable
         onPress={() => navigation.navigate('List')}
       ><Text>List</Text></Pressable>
